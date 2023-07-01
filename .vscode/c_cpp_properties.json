@@ -3,7 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${default}"
+                "C:\\msys64\\mingw64\\lib\\clang\\16"
             ],
             "defines": [
                 "_DEBUG",
@@ -11,10 +11,11 @@
                 "_UNICODE"
             ],
             "windowsSdkVersion": "10.0.22000.0",
-            "compilerPath": "C:/LLVM/bin/clang++.exe",
+            "compilerPath": "C:\\msys64\\mingw64\\bin\\clang++.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "${default}"
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4
