@@ -2,5 +2,6 @@
 
 struct On1FourEngine
 {
-    static void PrintHelloWorld();
+  static void Init();
 };
+

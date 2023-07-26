@@ -1,7 +1,14 @@
 #include <engine.h>
+#include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
 #include <iostream>
+#include <service_locator.h>
 
-void On1FourEngine::PrintHelloWorld()
+#include "platform/glfw_window.h"
+
+void On1FourEngine::Init()
 {
-    std::cout << "Hello, from engine libraryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyydf" << std::endl;
+  std::cout << "Initialize window" << std::endl;
+
+  ServiceLocator::Provide(new CustomWindow());
 }
