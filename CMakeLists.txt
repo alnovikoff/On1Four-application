@@ -3,6 +3,8 @@ project(on1four_application VERSION 0.0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
+
 add_subdirectory(engine)
 
 add_executable(${PROJECT_NAME} src/main.cpp)
