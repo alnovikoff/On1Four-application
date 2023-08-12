@@ -1,19 +1,10 @@
-#include <iostream>
-#include <engine.h>
-#include <glm/glm.hpp>
+#include <core/engine.h>
 
 int main(int argc, char **argv)
 {
-  std::cout << "HEllo from sandbox" << std::endl;
-  print_int(5);
-  // On1FourEngine::Init();
+  O1F4Engine::Engine* on1four_engine = new O1F4Engine::Engine();
 
-  // ServiceLocator::GetWindow()->OpenWindow();
-
-  // while(!ServiceLocator::GetWindow()->Update())
-  // {
-
-  // }
+  delete on1four_engine;
 
   return 0;
 }
