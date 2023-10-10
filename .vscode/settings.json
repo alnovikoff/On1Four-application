@@ -78,6 +78,9 @@
 		"numeric": "cpp",
 		"regex": "cpp",
 		"set": "cpp",
-		"xtree": "cpp"
+		"xtree": "cpp",
+		"cwctype": "cpp",
+		"filesystem": "cpp",
+		"numbers": "cpp"
 	}
 }
